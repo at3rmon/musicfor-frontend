@@ -6,7 +6,6 @@ import DefaultFooter from "@/components/shared/DefaultFooter.vue";
 
 <template>
   <DefaultHeader></DefaultHeader>
-
   <RouterView />
   <DefaultFooter></DefaultFooter>
 </template>
