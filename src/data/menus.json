@@ -1,0 +1,35 @@
+{
+  "main": [
+    {
+      "id": 1,
+      "name": "Home",
+      "url": "/",
+      "submenu": []
+    },
+    {
+      "id": 2,
+      "name": "About",
+      "url": "/about",
+      "submenu": [
+        {
+          "id": 3,
+          "name": "Why Choose MusicFor?",
+          "url": "/why-choose-musicfor",
+          "submenu": []
+        },
+        {
+          "id": 4,
+          "name": "Our History",
+          "url": "/our-history",
+          "submenu": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "News",
+      "url": "/news",
+      "submenu": []
+    }
+  ]
+}
