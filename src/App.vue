@@ -6,6 +6,8 @@ import DefaultFooter from "@/components/shared/DefaultFooter.vue";
 
 <template>
   <DefaultHeader></DefaultHeader>
-  <RouterView />
+  <main class="py-12 px-3">
+    <RouterView />
+  </main>
   <DefaultFooter></DefaultFooter>
 </template>

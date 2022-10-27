@@ -4,7 +4,7 @@ import MainMobileMenu from "./MainMobileMenu.vue";
 </script>
 
 <template>
-  <header class="sticky top-0 border-b-2 border-accent">
+  <header class="sticky top-0 border-b-2 border-accent z-50">
     <div class="navbar bg-base-100">
       <div class="navbar-start">
         <MainMobileMenu></MainMobileMenu>
@@ -17,9 +17,14 @@ import MainMobileMenu from "./MainMobileMenu.vue";
       </div>
       <div class="navbar-end">
         <div class="dropdown dropdown-end">
-          <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-            <div class="w-10 rounded-full">
-              <img src="https://placeimg.com/80/80/people" />
+          <label
+            tabindex="0"
+            class="btn btn-ghost btn-circle avatar placeholder"
+          >
+            <div
+              class="bg-neutral-focus text-neutral-content rounded-full w-24"
+            >
+              <span class="text-xl">CB</span>
             </div>
           </label>
           <ul

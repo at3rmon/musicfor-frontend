@@ -1,9 +1,7 @@
 <script setup>
 import Copywrites from "@/components/Copywrites.vue";
 import { library } from "@fortawesome/fontawesome-svg-core";
-/* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-/* import specific icons */
 import {
   faTwitter,
   faYoutube,
@@ -21,8 +19,10 @@ library.add(faTwitter, faYoutube, faFacebookF, faPinterest, faFoursquare);
       style="background-image: url(../src/assets/images/musicfor-live.jpg)"
     >
       <p class="max-w-lg text-center italic text-2xl">
+        <span class="divider text-sm">Quote</span>
         "...everyone on that train can be going the same direction but have
         different destinations..."
+        <span class="divider"></span>
       </p>
     </section>
     <section
