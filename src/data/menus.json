@@ -9,26 +9,26 @@
     {
       "id": 2,
       "name": "About",
-      "url": "/about",
+      "url": "#",
       "submenu": [
         {
           "id": 3,
           "name": "Why Choose MusicFor?",
-          "url": "/why-choose-musicfor",
+          "url": "/about/why-choose-musicfor",
           "submenu": []
         },
         {
           "id": 4,
           "name": "Our History",
-          "url": "/our-history",
+          "url": "/about/our-history",
           "submenu": []
         }
       ]
     },
     {
       "id": 5,
-      "name": "News",
-      "url": "/news",
+      "name": "Contact",
+      "url": "/contact",
       "submenu": []
     }
   ]
