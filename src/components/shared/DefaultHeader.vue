@@ -4,15 +4,15 @@ import MainMobileMenu from "./MainMobileMenu.vue";
 </script>
 
 <template>
-  <header class="sticky top-0 border-b-2 border-accent z-50">
-    <div class="navbar bg-base-100">
+  <header class="sticky top-0 z-50">
+    <nav class="navbar bg-neutral text-neutral-content py-0">
       <div class="navbar-start">
         <MainMobileMenu></MainMobileMenu>
         <RouterLink to="/"
           ><img alt="Vue logo" class="logo h-8" src="@/assets/logo.svg" />
         </RouterLink>
       </div>
-      <div class="navbar-center hidden lg:flex">
+      <div class="navbar-center hidden lg:flex bg-inherit text-inherit">
         <MainMenu></MainMenu>
       </div>
       <div class="navbar-end">
@@ -42,6 +42,6 @@ import MainMobileMenu from "./MainMobileMenu.vue";
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   </header>
 </template>

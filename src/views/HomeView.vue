@@ -55,7 +55,7 @@ library.add(
 
     <div class="divider"></div>
 
-    <section class="grid grid-cols-3 gap-6">
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div class="card w-full bg-base-100 shadow-2xl hover:bg-base-300">
         <div class="card-body items-center text-center">
           <font-awesome-icon icon="fa-solid fa-desktop" class="text-6xl" />
@@ -65,7 +65,7 @@ library.add(
             αίθουσες, όσο και στο στούντιό μας.
           </p>
           <div class="card-actions">
-            <RouterLink to="#" class="btn btn-primary">Read More</RouterLink>
+            <RouterLink to="#" class="btn btn-accent">Read More</RouterLink>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@ library.add(
             παγκόσμιας μουσικής σκηνής.
           </p>
           <div class="card-actions">
-            <RouterLink to="#" class="btn btn-primary">Read More</RouterLink>
+            <RouterLink to="#" class="btn btn-accent">Read More</RouterLink>
           </div>
         </div>
       </div>
@@ -97,7 +97,7 @@ library.add(
             στις εξετάσεις του LCM/RGT.
           </p>
           <div class="card-actions">
-            <RouterLink to="#" class="btn btn-primary">Read More</RouterLink>
+            <RouterLink to="#" class="btn btn-accent">Read More</RouterLink>
           </div>
         </div>
       </div>

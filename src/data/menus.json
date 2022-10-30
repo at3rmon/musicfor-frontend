@@ -3,32 +3,19 @@
     {
       "id": 1,
       "name": "Home",
-      "url": "/",
+      "path": "/",
       "submenu": []
     },
     {
       "id": 2,
       "name": "About",
-      "url": "#",
-      "submenu": [
-        {
-          "id": 3,
-          "name": "Why Choose MusicFor?",
-          "url": "/about/why-choose-musicfor",
-          "submenu": []
-        },
-        {
-          "id": 4,
-          "name": "Our History",
-          "url": "/about/our-history",
-          "submenu": []
-        }
-      ]
+      "path": "/about",
+      "submenu": []
     },
     {
       "id": 5,
       "name": "Contact",
-      "url": "/contact",
+      "path": "/contact",
       "submenu": []
     }
   ]
